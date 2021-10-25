@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 //PIT
-
+// the size of the program allows for the nesting to occur without any unplanned runtime or memory issues
 public class main {
 
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -717,7 +717,8 @@ public class main {
                 }
             }
         }
-        System.out.println("If you reach here I've been broken. Beep Boop go do something else.");
+        // this exception no longer occurs
+        // System.out.println("If you reach here I've been broken. Beep Boop go do something else.");
     }
 }
 
